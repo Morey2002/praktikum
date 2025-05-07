@@ -1,4 +1,4 @@
-from new_function import task, min, div, sum, divide_numbers
+from new_function import task, min, div, sum, divide_numbers, monkey_count
 def cakes(recipe, available):
     '''Функция принимает два аргумента рецепт (то что нужно  для приготовления и ингредиенты в наличии)
         На выходе получаем максимальное количество блюд'''
@@ -31,3 +31,4 @@ print(divide_numbers(4, 2))
 print(divide_numbers(10, 2))
 print(divide_numbers(10, 4))
 print(divide_numbers(8,3))
+print(monkey_count(8))

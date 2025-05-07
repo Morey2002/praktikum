@@ -16,3 +16,11 @@ def divide_numbers(x,y):
         return "Делить на ноль нельзя"
     else:
         return x / y
+
+
+def monkey_count(n):
+    count_monkey = []
+    for i in range(1, n + 1  ):
+        count_monkey == count_monkey.append(i)
+
+    return count_monkey
