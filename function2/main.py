@@ -27,15 +27,4 @@ print(min(5, 2))
 print(sum(4, 1243))
 print(div(5, 2))
 print(sum(4,6))
-print(divide_numbers(4, 1))
-print(divide_numbers(4, 2))
-print(divide_numbers(10, 2))
-print(divide_numbers(10, 4))
-print(divide_numbers(8,3))
-print(monkey_count(8))
-
-
-
-print(bouncing_ball(2, 0.5, 1))
-print(bouncing_ball(3, 0.66, 1.5))
 
