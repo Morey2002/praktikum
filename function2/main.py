@@ -1,5 +1,4 @@
 from new_function import *
-from math import pi
 def cakes(recipe, available):
     '''Функция принимает два аргумента рецепт (то что нужно  для приготовления и ингредиенты в наличии)
         На выходе получаем максимальное количество блюд'''
@@ -30,3 +29,10 @@ print(sum(4,6))
 
 print(calculate_sum(1_000_758))
 
+
+print(bouncing_ball(2, 0.5, 1))
+print(bouncing_ball(3, 0.66, 1.5))
+print(bouncing_ball(2, 0.5, 1))
+print(bouncing_ball(3, 0.66, 1.5))
+
+print("it's great")
