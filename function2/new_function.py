@@ -1,3 +1,4 @@
+import time
 def task(lym):
     return "first_task " * lym
 def sum(a,b):
@@ -34,3 +35,20 @@ def bouncing_ball(h, bounce, window):
         h *= bounce
         if h > window: count += 1
     return count or -1
+
+def timer_decorator(func):
+    def wrapper (*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print(f"{func.__name__} выполнилась за {end_time - start_time:.4f} секунд" )
+        return result
+    return wrapper
+
+@timer_decorator
+def calculate_sum(n):
+    total = 0
+    for i in range(n):
+        total += i
+    return total
+

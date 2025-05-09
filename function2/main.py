@@ -28,3 +28,5 @@ print(sum(4, 1243))
 print(div(5, 2))
 print(sum(4,6))
 
+print(calculate_sum(1_000_758))
+
