@@ -52,3 +52,10 @@ def calculate_sum(n):
         total += i
     return total
 
+
+
+def from_string_to_list(string, container):
+    numbers = string.split()  # Разбиваем строку по пробелам
+    for num in numbers:
+        container.append(int(num))
+
