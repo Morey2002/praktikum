@@ -22,7 +22,7 @@ print(cakes({"flour": 500, "sugar": 200, "eggs": 1}, {"flour": 1200, "sugar": 12
 print(cakes({"apples": 3, "flour": 300, "sugar": 100, "milk": 100, "oil": 100}, {"sugar": 500, "flour": 2000, "milk": 2000}))
 print(task(5))
 print(task(4))
-print(min(5, 2))
+print(mult(5, 2))
 print(sum(4, 1243))
 print(div(5, 2))
 print(sum(4,6))
