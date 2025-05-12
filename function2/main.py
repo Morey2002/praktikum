@@ -1,4 +1,5 @@
 from new_function import *
+from higher_func import *
 def cakes(recipe, available):
     '''Функция принимает два аргумента рецепт (то что нужно  для приготовления и ингредиенты в наличии)
         На выходе получаем максимальное количество блюд'''
@@ -35,3 +36,8 @@ print(bouncing_ball(3, 0.66, 1.5))
 print(bouncing_ball(2, 0.5, 1))
 print(bouncing_ball(3, 0.66, 1.5))
 
+print("Функции высшего порядка")
+print(calculate(summa, 5, 2))
+print(calculate(minus, 4, 1243))
+print(calculate(divides, 5, 2))
+print(calculate(multy, 4, 6))
