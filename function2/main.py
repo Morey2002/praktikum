@@ -30,7 +30,7 @@ print(sum(4,6))
 
 print(calculate_sum(1_000_758))
 
-
+print("Функции прыжка мяча")
 print(bouncing_ball(2, 0.5, 1))
 print(bouncing_ball(3, 0.66, 1.5))
 print(bouncing_ball(2, 0.5, 1))
